@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Pantograph</title>
+    <link>https://github.com/JimmysDev/Pantograph</link>
+    <item>
+      <title>Pantograph 1.1.3</title>
+      <pubDate>Fri, 16 Oct 2026 17:27:57 GMT</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p><b>New</b></p><ul><li><b>Automatic updates.</b> Pantograph now checks for new versions about once a day and offers to install them, so you never need to come back here to update. Use Pantograph › Check for Updates… any time, and Settings › Updates to turn checking off or let updates install in the background.</li></ul><p><b>Install:</b> download Pantograph-1.1.3.zip, unzip it and drag Pantograph to Applications, replacing the old copy. This is the last update you&#x27;ll need to install by hand. Requires macOS 13 or later; runs natively on Apple silicon and Intel. Signed and notarized by Apple.</p><p>Pantograph is free to download and use. © 2026 JimmysDev. All rights reserved.</p>]]></description>
+      <enclosure url="https://github.com/JimmysDev/Pantograph/releases/download/v1.1.3/Pantograph-1.1.3.zip" length="4086112" type="application/octet-stream" sparkle:edSignature="R3C+86sSGiNJGKUNsjJcTcEr/VXg9LCbNZMWlgH6uixY4uIFo12OGFfe0HTx02heHswv+Ysr3stuI1CbFOpCAQ=="/>
+    </item>
+  </channel>
+</rss>
