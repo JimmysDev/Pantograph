@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero-window-wide.png" width="830" alt="Pantograph, a fast, native image and PDF viewer for macOS. The Pantograph window shows the app icon: green glass with orange pegs.">
+  <img src="assets/hero-window-large.png" width="830" alt="Pantograph, a fast, native image and PDF viewer for macOS. The Pantograph window shows the app icon: green glass with orange pegs.">
 </p>
 
 <h3 align="center">Click through a folder of photos. Zoom with the wheel. Fix one up. Move on.</h3>
