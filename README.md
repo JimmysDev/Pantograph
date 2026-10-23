@@ -2,7 +2,7 @@
   <img src="assets/hero-v5.png" width="830" alt="Pantograph, a fast, native image and PDF viewer for macOS. The Pantograph window shows a photo of a drawing pantograph copying a flower sketch.">
 </p>
 
-<h3 align="center">Click through a folder of photos. Zoom with the wheel. Fix one up. Move on.</h3>
+<h3 align="center">Click through a folder of photos. Scroll to zoom. Sign and edit PDFs.</h3>
 
 <p align="center">
   A lightweight image viewer for the Mac, written in Swift.<br>
