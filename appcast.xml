@@ -4,13 +4,13 @@
     <title>Pantograph</title>
     <link>https://github.com/JimmysDev/Pantograph</link>
     <item>
-      <title>Pantograph 1.1.5</title>
-      <pubDate>Mon, 19 Oct 2026 03:17:31 GMT</pubDate>
-      <sparkle:version>7</sparkle:version>
-      <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+      <title>Pantograph 1.1.6</title>
+      <pubDate>Tue, 27 Oct 2026 22:41:29 GMT</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p><b>New</b></p><ul><li><b>Choose which way scrolling zooms.</b> Settings › Viewing has separate Scroll-wheel zoom and Trackpad zoom choices, each Standard or Reversed. Pantograph already follows macOS&#x27;s Natural Scrolling setting, but mouse apps such as Logi Options+ can reverse a mouse&#x27;s wheel without macOS knowing, which made zooming go the wrong way. The first time you zoom with a scroll wheel, Pantograph tells you where the setting is.</li></ul><p>If you have Pantograph 1.1.3 or later, it will offer this update by itself. Otherwise, download Pantograph-1.1.5.zip, unzip it and drag Pantograph to Applications. Requires macOS 13 or later; runs natively on Apple silicon and Intel. Signed and notarized by Apple.</p><p>Pantograph is free to download and use. © 2026 JimmysDev. All rights reserved.</p>]]></description>
-      <enclosure url="https://github.com/JimmysDev/Pantograph/releases/download/v1.1.5/Pantograph-1.1.5.zip" length="4202488" type="application/octet-stream" sparkle:edSignature="PmDueY/0exg7GNu25/Kp4gsXh+DbaaKW9fTj+Ex+1jgT3xdLo/aUAt6YiCumO9+sh3KhOBR1+cK/CM+KevKkBA=="/>
+      <description><![CDATA[<p><b>New</b></p><ul><li><b>Convert to JPEG.</b> File › Convert to JPEG (⇧⌘J), or right-click a photo, saves a JPEG copy of a HEIC (or any other photo) beside the original, which is left untouched. The copy looks the same and keeps the photo&#x27;s date, location and colour profile. Expect it to be about twice the size of a HEIC: JPEG simply compresses less well. For a different quality or format, use Save As.</li></ul><p>If you have Pantograph 1.1.3 or later, it will offer this update by itself. Otherwise, download Pantograph-1.1.6.zip, unzip it and drag Pantograph to Applications. Requires macOS 13 or later; runs natively on Apple silicon and Intel. Signed and notarized by Apple.</p><p>Pantograph is free to download and use. © 2026 JimmysDev. All rights reserved.</p>]]></description>
+      <enclosure url="https://github.com/JimmysDev/Pantograph/releases/download/v1.1.6/Pantograph-1.1.6.zip" length="4206459" type="application/octet-stream" sparkle:edSignature="aKRvzAlmIletFO4wD4noBDU4KWaVQ+q/6c6S3rddZm8u5A885ucip1iaaGDHirYPoraf2Sj1T3HPN8g2UM0rDw=="/>
     </item>
   </channel>
 </rss>
