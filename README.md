@@ -28,7 +28,7 @@ If you've used FastStone Image Viewer on Windows, Pantograph will feel familiar.
 
 **Picks up where you left off.** Pantograph reopens the file, PDF page and window you had when it last quit.
 
-**Quick fixes.** Right-click a photo, or use the Image menu or a single key, to rotate, flip, crop, resize, auto-enhance, and an Adjust panel with live preview for brightness, contrast, gamma, shadows, highlights, saturation, hue and warmth. Everything has undo, and Save keeps the original format and metadata.
+**Quick fixes.** Right-click a photo, or use the Image menu or a single key, to rotate, flip, crop, resize, auto-enhance, and an Adjust panel with live preview for brightness, contrast, gamma, shadows, highlights, saturation, hue and warmth. Everything has undo, and Save keeps the original format and metadata. **Convert to JPEG** (⇧⌘J, or right-click) saves a JPEG copy of a HEIC or any other photo beside the original, at the same visual quality, keeping its date, location and colour.
 
 **Opens almost anything.** JPEG, PNG, HEIC, AVIF, WebP, JPEG XL, TIFF, PSD, OpenEXR and camera RAW. Animated GIF, APNG and WebP loop. MP4, MOV and WebM clips loop, starting muted. PDFs scroll through all their pages, with a scroll bar, and re-render sharply as you zoom.
 
