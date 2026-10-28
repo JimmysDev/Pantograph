@@ -20,7 +20,7 @@
 
 If you've used FastStone Image Viewer on Windows, Pantograph will feel familiar.
 
-**Click to move on.** Click the right half of the image for the next photo in the folder, the left half for the previous one (videos and PDFs in the same folder are skipped; open one of those to step through them instead); an arrow flashes on that side so you can see what happened. Drag the image to move the window (when you’re zoomed in, dragging moves around the picture instead). The next photos are decoded ahead of time, so they appear instantly.
+**Click to move on.** Click the right half of the image for the next photo in the folder, the left half for the previous one (videos and PDFs in the same folder are skipped; open one of those to step through them with the arrow keys instead, and click a video to pause or play it); an arrow flashes on that side so you can see what happened. Drag the image to move the window (when you’re zoomed in, dragging moves around the picture instead). The next photos are decoded ahead of time, so they appear instantly.
 
 **Zoom where you're looking.** The scroll wheel or a pinch zooms around the cursor; drag to pan. When you stop, the picture is redrawn sharply with a Lanczos filter. Settings also has a sharp-pixels mode for pixel art and screenshots.
 
