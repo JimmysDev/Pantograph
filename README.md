@@ -24,7 +24,7 @@ If you've used FastStone Image Viewer on Windows, Pantograph will feel familiar.
 
 **Zoom where you're looking.** The scroll wheel or a pinch zooms around the cursor; drag to pan. When you stop, the picture is redrawn sharply with a Lanczos filter. Settings also has a sharp-pixels mode for pixel art and screenshots.
 
-**Keeps itself up to date.** Pantograph checks for new versions about once a day and installs them for you; there’s also Check for Updates… in the Pantograph menu.
+**Keeps itself up to date.** Pantograph checks for new versions about once a day, downloads them in the background and installs them when you quit, with no prompts (you can turn that off in Settings › Updates). There’s also Check for Updates… in the Pantograph menu.
 
 **Picks up where you left off.** Pantograph reopens the file, PDF page and window you had when it last quit.
 
