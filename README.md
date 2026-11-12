@@ -28,15 +28,25 @@ If you've used FastStone Image Viewer on Windows, Pantograph will feel familiar.
 
 **Picks up where you left off.** Pantograph reopens the file, PDF page and window you had when it last quit.
 
-**Quick fixes.** Right-click a photo, or use the Image menu or a single key, to rotate, flip, crop, resize, auto-enhance, and an Adjust panel with live preview for brightness, contrast, gamma, shadows, highlights, saturation, hue and warmth. Everything has undo, and Save keeps the original format and metadata. **Convert to JPEG** (⇧⌘J, or right-click) saves a JPEG copy of a HEIC or any other photo beside the original, at the same visual quality, keeping its date, location and colour.
+**Quick fixes.** Right-click a photo, or use the Image menu or a single key, to rotate, flip, crop (with a slider to straighten a tilted horizon while the crop stays level), resize, auto-enhance, and an Adjust panel with live preview for brightness, contrast, gamma, shadows, highlights, saturation, hue and warmth. Everything has undo, and Save keeps the original format and metadata. **Convert to JPEG** (⇧⌘J, or right-click) saves a JPEG copy of a HEIC or any other photo beside the original, at the same visual quality, keeping its date, location and colour.
+
+**Get Info** (⌘I) shows a photo's camera and exposure and lets you edit its title, caption, keywords, creator, copyright and date taken, or remove its location, without re-encoding the picture. For PDFs it edits the title, author, subject and keywords. For any file it shows and edits Finder's Where From, the address it was downloaded from.
 
 **Opens almost anything.** JPEG, PNG, HEIC, AVIF, WebP, JPEG XL, TIFF, PSD, OpenEXR and camera RAW. Animated GIF, APNG and WebP loop. MP4, MOV and WebM clips loop, starting muted. PDFs scroll through all their pages, with a scroll bar, and re-render sharply as you zoom.
 
 **Sign PDFs.** Draw your signature with the mouse or trackpad, or import a picture of it, and Pantograph keeps it for next time. Drag it into place, resize it from a corner, and save. Any PDF app shows it.
 
-**Mark up PDFs.** Type text boxes in any font on your Mac, highlight, underline or strike through text, draw freehand, and add boxes, ovals, arrows and lines, from the toolbar above every PDF or with a single key. Right-click a page to add a signature, text or a shape right where you clicked. Drag to move, pull a handle to resize, double-click to retype. Everything is saved as standard PDF annotations with their look and fonts embedded, so other PDF apps show it where you put it, rotated pages included, and Pantograph can edit it again later.
+**Mark up PDFs.** Type text boxes in any font on your Mac, highlight, underline or strike through text, draw freehand, and add boxes, ovals, arrows and lines, from the toolbar above every PDF or with a single key. Right-click a page to add a signature, text or a shape right where you clicked. Drag to move, pull a handle to resize, double-click to retype. Letter spacing steps by 0.1 pt, for lining text up with the boxes on a form. Everything is saved as standard PDF annotations with their look and fonts embedded, so other PDF apps show it where you put it, rotated pages included, and Pantograph can edit it again later.
 
 **Split and make PDFs.** Export the page you're on, or any list like "3, 5–7", as a new PDF. Pick a few photos or scans and combine them into one PDF, a page each, in the order you choose.
+
+**Works with scripts and AI agents.** The `pantograph` command (Settings › Command line and AI agents installs it) watermarks, converts, resizes, rotates, crops and straightens, adjusts, and applies effects to images, edits their information and Where From, and extracts, merges, makes and renders PDFs, without opening a window. Watermarks can be text or a logo, in a corner, centred or tiled across the page; on PDFs they're drawn into the page, so they print, and the document's text, links and bookmarks stay as they were. Results go beside the original under a new name, and nothing is replaced unless you ask. `pantograph mcp` offers the same tools to AI agents over the Model Context Protocol; Settings copies the one-line setup for Claude Code. `pantograph help` lists everything.
+
+```
+pantograph watermark *.jpg --text "© My Studio" --position bottom-right --opacity 0.4
+pantograph watermark contract.pdf --image logo.png --position tile --opacity 0.15
+pantograph convert IMG_0412.HEIC --to jpeg
+```
 
 <br>
 
