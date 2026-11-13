@@ -40,12 +40,14 @@ If you've used FastStone Image Viewer on Windows, Pantograph will feel familiar.
 
 **Split and make PDFs.** Export the page you're on, or any list like "3, 5–7", as a new PDF. Pick a few photos or scans and combine them into one PDF, a page each, in the order you choose.
 
-**Works with scripts and AI agents.** The `pantograph` command (Settings › Command line and AI agents installs it) watermarks, converts, resizes, rotates, crops and straightens, adjusts, and applies effects to images, edits their information and Where From, and extracts, merges, makes and renders PDFs, without opening a window. Watermarks can be text or a logo, in a corner, centred or tiled across the page; on PDFs they're drawn into the page, so they print, and the document's text, links and bookmarks stay as they were. Results go beside the original under a new name, and nothing is replaced unless you ask. `pantograph mcp` offers the same tools to AI agents over the Model Context Protocol; Settings copies the one-line setup for Claude Code. `pantograph help` lists everything.
+**Works with scripts and AI agents.** The `pantograph` command (Settings › Command line and AI agents installs it) watermarks, converts, resizes, rotates, crops and straightens, adjusts, and applies effects to images, edits their information and Where From, and extracts, merges, makes and renders PDFs, without opening a window. It fills in PDF forms too: real form fields by name, or flat forms by finding a label and writing beside it with the same editable text boxes as the app, then listing and removing mistakes and flattening the result before it's sent. Watermarks can be text or a logo, in a corner, centred or tiled across the page; on PDFs they're drawn into the page, so they print, and the document's text, links and bookmarks stay as they were. Results go beside the original under a new name, and nothing is replaced unless you ask. `pantograph mcp` offers the same tools to AI agents over the Model Context Protocol; Settings copies the one-line setup for Claude Code. `pantograph help` lists everything.
 
 ```
 pantograph watermark *.jpg --text "© My Studio" --position bottom-right --opacity 0.4
 pantograph watermark contract.pdf --image logo.png --position tile --opacity 0.15
 pantograph convert IMG_0412.HEIC --to jpeg
+pantograph fill-form application.pdf --values '{"full_name":"Jo Bloggs","agree":true}'
+pantograph add-text lease.pdf --text "Jo Bloggs" --page 2 --x 140 --y 312 --anchor baseline
 ```
 
 <br>
