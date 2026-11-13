@@ -4,13 +4,13 @@
     <title>Pantograph</title>
     <link>https://github.com/JimmysDev/Pantograph</link>
     <item>
-      <title>Pantograph 1.2.3</title>
-      <pubDate>Fri, 13 Nov 2026 01:44:35 GMT</pubDate>
-      <sparkle:version>16</sparkle:version>
-      <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+      <title>Pantograph 1.2.4</title>
+      <pubDate>Fri, 13 Nov 2026 02:48:12 GMT</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p><b>New, for scripts and AI agents</b></p><ul><li><b>Scanned forms.</b> `find-text` and `text` now read scanned pages with the Mac&#x27;s built-in text recognition, so labels like &quot;Surname&quot; can be found on a form that&#x27;s just a picture.</li><li><b>`find-boxes`</b> finds the boxes printed on a form, scanned or not: rows of one-letter boxes with their positions, count and spacing, and single answer boxes.</li><li><b>One letter per box.</b> `add-text` takes a row of boxes and centres one character in each, with any font.</li><li><b>Zoom in to check.</b> `render` can draw just part of a page, magnified, with a ruler in points.</li><li><b>Searchable flattened copies.</b> Flattening keeps letter-spaced and boxed answers searchable as whole words.</li><li>`annotations` now says whether each piece of markup prints, and every text box Pantograph adds is set to print.</li></ul><p>If you have Pantograph 1.1.3 or later, it will offer this update by itself (1.1.7 and later install it quietly when you quit). Otherwise, download Pantograph-1.2.3.dmg, open it and drag Pantograph to Applications. Requires macOS 13 or later; runs natively on Apple silicon and Intel. Signed and notarized by Apple.</p><p>Pantograph is free to download and use. © 2026 JimmysDev. All rights reserved.</p>]]></description>
-      <enclosure url="https://github.com/JimmysDev/Pantograph/releases/download/v1.2.3/Pantograph-1.2.3.dmg" length="4849202" type="application/octet-stream" sparkle:edSignature="bTuBjLQpa9nz6xa5bYoqmxAUagJwgrS69At8MNp/O/ZTwdO3xSUYaOw4+udNJudLZPeW3TBtTGvWZagVsykAAw=="/>
+      <description><![CDATA[<p><b>New</b></p><ul><li><b>Add to Claude Desktop.</b> Settings › Command line and AI agents has a new button that installs Pantograph&#x27;s tools in the Claude app as an extension: click it, then Install when Claude asks. Claude can then fill in forms, add text, find and read text (scans too), watermark, convert and resize your files using Pantograph. The extension uses the Pantograph in your Applications folder, so it stays up to date with it. Each release also includes Pantograph.mcpb to double-click instead.</li></ul><p>If you have Pantograph 1.1.3 or later, it will offer this update by itself (1.1.7 and later install it quietly when you quit). Otherwise, download Pantograph-1.2.4.dmg, open it and drag Pantograph to Applications. Requires macOS 13 or later; runs natively on Apple silicon and Intel. Signed and notarized by Apple.</p><p>Pantograph is free to download and use. © 2026 JimmysDev. All rights reserved.</p>]]></description>
+      <enclosure url="https://github.com/JimmysDev/Pantograph/releases/download/v1.2.4/Pantograph-1.2.4.dmg" length="4869212" type="application/octet-stream" sparkle:edSignature="8kvEcyVU0FTge+b8ES5yflmVWsijZyJBtsv4JvZ72Bd7z+kJj/GoT+2owkBXNwu++cRZfUUmkSzW5ATeenqEBg=="/>
     </item>
   </channel>
 </rss>
