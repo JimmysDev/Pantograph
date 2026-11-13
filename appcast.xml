@@ -4,13 +4,13 @@
     <title>Pantograph</title>
     <link>https://github.com/JimmysDev/Pantograph</link>
     <item>
-      <title>Pantograph 1.2.2</title>
-      <pubDate>Fri, 13 Nov 2026 01:34:56 GMT</pubDate>
-      <sparkle:version>15</sparkle:version>
-      <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+      <title>Pantograph 1.2.3</title>
+      <pubDate>Fri, 13 Nov 2026 01:44:35 GMT</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p><b>New</b></p><ul><li><b>Print (⌘P).</b> File › Print… prints the PDF or photo you&#x27;re looking at. PDFs print as they are now, with any text boxes, signatures and other markup, even before you save; each page fits the paper. Photos print as large as the paper allows, turned to match their shape, with your edits. It&#x27;s in the right-click menu too.</li></ul><p>If you have Pantograph 1.1.3 or later, it will offer this update by itself (1.1.7 and later install it quietly when you quit). Otherwise, download Pantograph-1.2.2.dmg, open it and drag Pantograph to Applications. Requires macOS 13 or later; runs natively on Apple silicon and Intel. Signed and notarized by Apple.</p><p>Pantograph is free to download and use. © 2026 JimmysDev. All rights reserved.</p>]]></description>
-      <enclosure url="https://github.com/JimmysDev/Pantograph/releases/download/v1.2.2/Pantograph-1.2.2.dmg" length="4764012" type="application/octet-stream" sparkle:edSignature="u6q7j9kmvnYGvvweSGaAPcYauTwcqnalp7KuZi8w6V8+KTHzrg42tDZwZn9mjWasbE3ICegxhaiFF89avCKOBA=="/>
+      <description><![CDATA[<p><b>New, for scripts and AI agents</b></p><ul><li><b>Scanned forms.</b> `find-text` and `text` now read scanned pages with the Mac&#x27;s built-in text recognition, so labels like &quot;Surname&quot; can be found on a form that&#x27;s just a picture.</li><li><b>`find-boxes`</b> finds the boxes printed on a form, scanned or not: rows of one-letter boxes with their positions, count and spacing, and single answer boxes.</li><li><b>One letter per box.</b> `add-text` takes a row of boxes and centres one character in each, with any font.</li><li><b>Zoom in to check.</b> `render` can draw just part of a page, magnified, with a ruler in points.</li><li><b>Searchable flattened copies.</b> Flattening keeps letter-spaced and boxed answers searchable as whole words.</li><li>`annotations` now says whether each piece of markup prints, and every text box Pantograph adds is set to print.</li></ul><p>If you have Pantograph 1.1.3 or later, it will offer this update by itself (1.1.7 and later install it quietly when you quit). Otherwise, download Pantograph-1.2.3.dmg, open it and drag Pantograph to Applications. Requires macOS 13 or later; runs natively on Apple silicon and Intel. Signed and notarized by Apple.</p><p>Pantograph is free to download and use. © 2026 JimmysDev. All rights reserved.</p>]]></description>
+      <enclosure url="https://github.com/JimmysDev/Pantograph/releases/download/v1.2.3/Pantograph-1.2.3.dmg" length="4849202" type="application/octet-stream" sparkle:edSignature="bTuBjLQpa9nz6xa5bYoqmxAUagJwgrS69At8MNp/O/ZTwdO3xSUYaOw4+udNJudLZPeW3TBtTGvWZagVsykAAw=="/>
     </item>
   </channel>
 </rss>
