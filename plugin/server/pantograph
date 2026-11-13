@@ -1,0 +1,16 @@
+#!/bin/sh
+# Starts the Pantograph app's tool server (the Model Context Protocol, over stdin and stdout).
+# This plugin contains no copy of Pantograph: it runs the one installed on this Mac, which keeps
+# itself up to date. It looks in /Applications, then ~/Applications, then asks macOS where an app
+# with Pantograph's bundle identifier is. It makes no network requests.
+for app in "/Applications/Pantograph.app" "$HOME/Applications/Pantograph.app"; do
+    if [ -x "$app/Contents/MacOS/Pantograph" ]; then
+        exec "$app/Contents/MacOS/Pantograph" mcp
+    fi
+done
+app=$(osascript -e 'POSIX path of (path to application id "com.jimmysdev.pantograph")' 2>/dev/null)
+if [ -n "$app" ] && [ -x "${app%/}/Contents/MacOS/Pantograph" ]; then
+    exec "${app%/}/Contents/MacOS/Pantograph" mcp
+fi
+echo "Pantograph isn't installed on this Mac. It's free: download it from https://github.com/JimmysDev/Pantograph/releases/latest, open the .dmg and drag Pantograph to Applications." >&2
+exit 1

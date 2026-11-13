@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pantograph": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/server/pantograph",
+      "args": []
+    }
+  }
+}

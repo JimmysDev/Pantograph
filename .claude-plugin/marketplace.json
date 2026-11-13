@@ -1,0 +1,15 @@
+{
+  "name": "pantograph",
+  "description": "The Pantograph plugin: fill in and edit PDFs and photos on your Mac.",
+  "owner": {
+    "name": "JimmysDev",
+    "url": "https://github.com/JimmysDev"
+  },
+  "plugins": [
+    {
+      "name": "pantograph",
+      "source": "./plugin",
+      "description": "Fill in, check and edit PDFs and photos on your Mac with the free Pantograph app."
+    }
+  ]
+}
