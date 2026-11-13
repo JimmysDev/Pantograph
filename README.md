@@ -65,6 +65,7 @@ pantograph add-text lease.pdf --text "Jo Bloggs" --page 2 --x 140 --y 312 --anch
 | H · U · ⇧U | In a PDF: highlight · underline · strike through |
 | B · O · A · ⇧A | In a PDF: box · oval · arrow · line |
 | ⌥⌘E · ⌥⌘I | Export pages of a PDF · make a PDF from images |
+| ⌘P | Print, with any markup and signatures |
 | A · E | Adjust colours · auto-enhance |
 | P · M · , / . | Play / pause · sound · step a frame |
 | F · Delete | Full screen · move to Trash |
