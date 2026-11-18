@@ -1,15 +1,15 @@
 {
   "name": "pantograph",
   "displayName": "Pantograph",
-  "version": "1.0.0",
-  "description": "Fill in, check and edit PDFs and photos on your Mac with the free Pantograph app: fillable, flat and scanned forms, text and one-letter-per-box answers, reading and finding text (scans too), watermarks, conversion, resizing and more. Files stay on your Mac.",
+  "version": "1.1.0",
+  "description": "Fill in, edit, convert and check PDFs and photos on your Mac with the free Pantograph app: fillable, flat and scanned forms, one-letter-per-box answers, page editing, logos and stamps, HEIC to JPEG, PDF to images, smaller PDFs, and before-and-after comparison so Claude can check its own work. Files stay on your Mac.",
   "author": {
     "name": "JimmysDev",
     "url": "https://github.com/JimmysDev"
   },
   "homepage": "https://github.com/JimmysDev/Pantograph",
   "repository": "https://github.com/JimmysDev/Pantograph",
-  "keywords": ["pdf", "forms", "fill pdf", "scanned forms", "ocr", "watermark", "images", "heic", "macos"],
+  "keywords": ["pdf", "pdf forms", "fill pdf", "scanned forms", "ocr", "edit pdf", "compress pdf", "heic", "convert", "watermark", "macos"],
   "icon": "./icon.png",
   "documentationUrl": "https://github.com/JimmysDev/Pantograph#readme",
   "supportUrl": "https://github.com/JimmysDev/Pantograph/issues"

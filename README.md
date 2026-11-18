@@ -2,11 +2,12 @@
   <img src="assets/hero-v5.png" width="830" alt="Pantograph, a fast, native image and PDF viewer for macOS. The Pantograph window shows a photo of a drawing pantograph copying a flower sketch.">
 </p>
 
-<h3 align="center">Click through a folder of photos. Scroll to zoom. Sign and edit PDFs.</h3>
+<h3 align="center">Click through a folder of photos. Sign and edit PDFs. Let Claude fill in your forms.</h3>
 
 <p align="center">
   A lightweight image viewer for the Mac, written in Swift.<br>
-  Opens almost anything, plays GIFs and video clips on a loop, and pages through, marks up and signs PDFs.
+  Opens almost anything, plays GIFs and video clips on a loop, and pages through, marks up and signs PDFs.<br>
+  And it gives Claude and other AI agents the tools to fill in, edit, convert and check your PDFs and photos, on your Mac.
 </p>
 
 <p align="center">
@@ -15,6 +16,34 @@
 </p>
 
 <br>
+
+## Works with Claude and other AI agents
+
+Ask Claude to deal with a PDF or a folder of photos and it can do the job itself, with Pantograph's tools,
+on your Mac. Nothing is uploaded anywhere.
+
+- **"Fill in this form with my details."** Fillable PDFs by field name. Flat and scanned forms too:
+  Claude reads the labels (with text recognition on scans), finds the printed boxes, and writes each
+  answer beside its label, on its line, or one letter per box.
+- **"Rotate page 3, delete the blank pages and put our logo on the cover."** Rearrange, split and merge
+  pages; add text, logos, stamps or a signature picture you give it; watermark; set the title and author.
+- **"Turn these HEICs into JPEGs" · "Make this PDF small enough to email" · "Save each page as an image."**
+  Conversions keep photos' dates, locations and colour.
+- **And it checks its own work.** Claude compares the file before and after to see exactly what changed,
+  zooms in on any part of a page with a ruler, reads the text back, and flattens a finished form before
+  it's sent.
+
+**Add it to Claude**
+- **Claude Code:** `/plugin marketplace add JimmysDev/Pantograph`, then `/plugin install pantograph@pantograph`.
+- **Claude Desktop and Cowork:** download `Pantograph-plugin.zip` from the
+  [latest release](https://github.com/JimmysDev/Pantograph/releases/latest), then in Claude choose
+  Customize › Plugins › Add › Upload plugin. Or click **Add to Claude Desktop** in Pantograph's
+  Settings.
+- **Other agents:** `pantograph mcp` is a standard Model Context Protocol server, and the `pantograph`
+  command does the same from scripts (Settings › Command line and AI agents installs it).
+
+The plugin teaches Claude when to use each of Pantograph's 29 tools and how to check the result; its
+[README](https://github.com/JimmysDev/Pantograph/blob/main/plugin/README.md) lists exactly what it runs.
 
 ## What you get
 
@@ -40,7 +69,7 @@ If you've used FastStone Image Viewer on Windows, Pantograph will feel familiar.
 
 **Split and make PDFs.** Export the page you're on, or any list like "3, 5–7", as a new PDF. Pick a few photos or scans and combine them into one PDF, a page each, in the order you choose.
 
-**Works with scripts and AI agents.** The `pantograph` command (Settings › Command line and AI agents installs it) watermarks, converts, resizes, rotates, crops and straightens, adjusts, and applies effects to images, edits their information and Where From, and extracts, merges, makes and renders PDFs, without opening a window. It fills in PDF forms too: real form fields by name, or flat and scanned forms by finding a label (read with text recognition on scans) and writing beside it, or finding a row of letter boxes and putting one character in each, with the same editable text boxes as the app. Then it zooms in to check, lists and removes mistakes, and flattens the result, still searchable, before it's sent. Watermarks can be text or a logo, in a corner, centred or tiled across the page; on PDFs they're drawn into the page, so they print, and the document's text, links and bookmarks stay as they were. Results go beside the original under a new name, and nothing is replaced unless you ask. `pantograph mcp` offers the same tools to AI agents over the Model Context Protocol; Settings copies the one-line setup for Claude Code, and **Add to Claude Desktop** installs them in the Claude app as an extension (each release also has `Pantograph.mcpb` to double-click). There's also a Claude plugin, which teaches Claude when and how to use them: in Claude Code, `/plugin marketplace add JimmysDev/Pantograph` then `/plugin install pantograph@pantograph`. `pantograph help` lists everything.
+**Scriptable.** Everything the AI tools do also works from Terminal and scripts, without opening a window: the `pantograph` command (Settings › Command line and AI agents installs it) fills forms, edits and rearranges PDFs, watermarks, converts, compresses, compares and more, and prints its results as JSON. Watermarks can be text or a logo, in a corner, centred or tiled; on PDFs they're drawn into the page, so they print, and the document's text, links and bookmarks stay as they were. Results go beside the original under a new name, and nothing is replaced unless you ask. `pantograph help` lists everything.
 
 ```
 pantograph watermark *.jpg --text "© My Studio" --position bottom-right --opacity 0.4
